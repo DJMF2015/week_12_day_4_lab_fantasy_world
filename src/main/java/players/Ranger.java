@@ -7,14 +7,12 @@ import java.util.ArrayList;
 public class Ranger extends Fighter {
 
     private ArrayList<IWeapon> weapons;
-    private IWeapon weapon;
+    private IWeapon mainWeapon;
     private String name;
     private int healthPoints;
 
-    public Ranger(IWeapon weapon, String name, int healthPoints) {
-        super(weapon);
-        this.name = name;
-        this.healthPoints = healthPoints;
+    public Ranger(IWeapon mainWeapon, String name, int healthPoints) {
+        super(mainWeapon, name, healthPoints);
         weapons = new ArrayList<>();
     }
 
@@ -23,7 +21,7 @@ public class Ranger extends Fighter {
     }
 
     public String getName() {
-        return name;
+       return super.getName();
     }
 
     public IWeapon getWeapon() {
@@ -35,10 +33,10 @@ public class Ranger extends Fighter {
     }
 
     public int getHealthPoints() {
-        return healthPoints;
+        return super.getHealthPoints();
     }
 
     public void setHealthPoints(int healthPoints) {
-        this.healthPoints = healthPoints;
+        super.setHealthPoints(healthPoints);
     }
 }

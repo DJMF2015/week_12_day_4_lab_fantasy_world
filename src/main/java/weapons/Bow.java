@@ -14,6 +14,17 @@ public class Bow implements IWeapon {
         this.distance = distance;
     }
 
+    public int getDamage() {
+        return damage;
+    }
+
+    public String getBowType() {
+        return bowType;
+    }
+
+    public int getDistance() {
+        return distance;
+    }
 
     @Override
     public int damageValue() {

@@ -18,4 +18,12 @@ public class Sword implements IWeapon {
     public int damageValue() {
         return damage;
     }
+
+    public int getLength() {
+        return length;
+    }
+
+    public String getMetal() {
+        return metal;
+    }
 }

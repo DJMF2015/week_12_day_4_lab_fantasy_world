@@ -1,3 +1,5 @@
+package players;
+
 import players.Ranger;
 import behaviours.IWeapon;
 import org.junit.Before;
