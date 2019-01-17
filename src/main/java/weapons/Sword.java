@@ -1,3 +1,7 @@
+package weapons;
+
+import behaviours.IWeapon;
+
 public class Sword implements IWeapon {
 
     private int damage;

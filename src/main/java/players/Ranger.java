@@ -1,3 +1,7 @@
+package players;
+
+import behaviours.IWeapon;
+
 import java.util.ArrayList;
 
 public class Ranger extends Fighter {

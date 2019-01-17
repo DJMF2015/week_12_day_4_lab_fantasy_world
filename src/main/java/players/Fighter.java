@@ -1,4 +1,6 @@
-import java.util.ArrayList;
+package players;
+
+import behaviours.IWeapon;
 
 public abstract class Fighter {
 
