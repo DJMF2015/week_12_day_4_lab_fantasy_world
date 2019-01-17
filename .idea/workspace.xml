@@ -2,20 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c3404765-6600-4aea-a296-6a0b24c4cae8" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/enemies/Troll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/players/Player.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/weapons/Axe.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/EnemiesTest/TrollTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/weapons/AxeTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/weapons/BowTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/weapons/SwordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/players/SpellType.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Fighter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Fighter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/players/Ranger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/players/Ranger.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Bow.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Bow.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/weapons/Sword.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/RangerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/players/RangerTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -34,20 +23,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Fighter.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/players/Fighter.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="15" column="32" lean-forward="true" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-              <folding>
-                <element signature="e#251#252#0" expanded="true" />
-                <element signature="e#296#297#0" expanded="true" />
-                <element signature="e#332#333#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="Ranger.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/players/Ranger.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -72,7 +47,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Player.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Player.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/players/Player.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -127,14 +102,38 @@
       <file leaf-file-name="TrollTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/EnemiesTest/TrollTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+            <state relative-caret-position="292">
+              <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#414#415#0" expanded="true" />
                 <element signature="e#471#472#0" expanded="true" />
                 <element signature="e#518#519#0" expanded="true" />
                 <element signature="e#571#572#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ISpell.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/ISpell.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SpellType.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/players/SpellType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
+              <folding>
+                <element signature="e#144#145#0" expanded="true" />
+                <element signature="e#174#175#0" expanded="true" />
+                <element signature="e#207#208#0" expanded="true" />
+                <element signature="e#235#236#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -184,9 +183,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
         <option value="Class" />
+        <option value="Interface" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -517,6 +517,9 @@
         <option value="$PROJECT_DIR$/src/main/java/enemies/Enemy.java" />
         <option value="$PROJECT_DIR$/src/test/java/EnemiesTest/TrollTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/players/Player.java" />
+        <option value="$PROJECT_DIR$/src/main/java/behaviours/ISpell.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/spells.java" />
+        <option value="$PROJECT_DIR$/src/main/java/players/SpellType.java" />
       </list>
     </option>
   </component>
@@ -842,9 +845,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="BowTest - 2019.01.17 at 13h 11m 16s.xml">
-      <configuration name="BowTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="SwordTest - 2019.01.17 at 13h 13m 02s.xml">
       <configuration name="SwordTest" configurationId="JUnit" />
     </history-entry>
@@ -870,6 +870,9 @@
       <configuration name="TrollTest" configurationId="JUnit" />
     </history-entry>
     <history-entry file="TrollTest - 2019.01.17 at 14h 14m 04s.xml">
+      <configuration name="TrollTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TrollTest - 2019.01.17 at 14h 20m 10s.xml">
       <configuration name="TrollTest" configurationId="JUnit" />
     </history-entry>
   </component>
@@ -995,13 +998,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/players/Fighter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -1102,10 +1098,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+          <folding>
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#283#284#0" expanded="true" />
+            <element signature="e#405#406#0" expanded="true" />
+            <element signature="e#447#448#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/EnemiesTest/TrollTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="33" column="5" lean-forward="true" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="292">
+          <caret line="39" column="5" lean-forward="true" selection-start-line="39" selection-start-column="5" selection-end-line="39" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#414#415#0" expanded="true" />
@@ -1116,15 +1125,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/players/Player.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/IWeapon.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="41" selection-end-line="17" selection-end-column="41" />
+        <state relative-caret-position="30">
+          <caret line="2" column="17" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/behaviours/ISpell.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/players/SpellType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="5" lean-forward="true" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="5" />
           <folding>
-            <element signature="e#262#263#0" expanded="true" />
-            <element signature="e#283#284#0" expanded="true" />
-            <element signature="e#405#406#0" expanded="true" />
-            <element signature="e#447#448#0" expanded="true" />
+            <element signature="e#144#145#0" expanded="true" />
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#207#208#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
           </folding>
         </state>
       </provider>
