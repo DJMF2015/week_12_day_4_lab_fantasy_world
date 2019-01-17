@@ -1,6 +1,8 @@
 ## Lab - Fantasy Adventure
 The task is to model a fantasy adventure. The game will have players, who will have a number of health points and weapons/spells. Players will fall into different categories:
 
+![alt text](fantasy.png 'fantasy adventure lab')
+
 #### Dwarves, Barbarians, Knights
 each of these will have a weapon and fight with other players (Sword, Axe, Club, etc)
 should be able to change their weapon at any point in the game.
